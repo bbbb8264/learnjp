@@ -1,0 +1,16 @@
+#levels{
+	text-align: center;
+}
+#levels span{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#sentences{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media screen and (min-width: 500px) {
+    #levels{
+		max-width: 500px;
+	}
+}
