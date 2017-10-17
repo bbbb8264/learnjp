@@ -13,4 +13,20 @@
     #levels{
 		max-width: 500px;
 	}
+	#pages{
+		max-width: 500px;
+	}
+}
+#pages{
+	text-align: center;
+}
+#pages span{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#pages span.clickable{
+	color:blue;
+}
+#pages span.clickable:hover{
+	cursor: pointer;
 }

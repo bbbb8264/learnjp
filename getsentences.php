@@ -1,7 +1,9 @@
 <?php
 $servername = "localhost";
-$username = "id3281060_user";
-$password = "12345";
+//$username = "id3281060_user";
+//$password = "12345";
+$username = "root";
+$password = "1234";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
@@ -10,7 +12,8 @@ $conn = new mysqli($servername, $username, $password);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-$sql = "SELECT * FROM id3281060_db.sentences";
+//$sql = "SELECT * FROM id3281060_db.sentences";
+$sql = "SELECT * FROM learnjp.sentences";
 $result = $conn->query($sql);
 $arr = array();
 if ($result->num_rows > 0) {
