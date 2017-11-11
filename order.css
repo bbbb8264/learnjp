@@ -1,0 +1,147 @@
+body{
+	font-family: "Microsoft JhengHei";
+}
+div#menuimg img{
+	max-width: 500;
+    max-height: 500;
+}
+#menu{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	background-color: #DEFFF3;
+    padding: 10px;
+    border-radius: 5px;
+}
+.menu-description{
+	margin-bottom: 10px;
+}
+.menu-description span{
+	margin-left: 3px;
+}
+#menu-title{
+	text-align: center;
+    background-color: #DEFFB5;
+    border-radius: 5px 5px 0px 0px;
+    line-height: 37px;
+}
+#menuimg{
+	background-color: #DEFFB5;
+    padding: 0px 20px 20px 20px;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    width: 500px;
+}
+#orderview{
+	display: inline-block;
+	vertical-align: top;
+}
+#order-list{
+	background-color: #FFF3E2;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.order{
+    margin-bottom: 10px;
+}
+.order div{
+	vertical-align: top;
+}
+#order-title{
+	margin-bottom: 15px;
+}
+.order-name{
+	display: inline-block;
+	width:120px;
+}
+.order-food{
+	display: inline-block;
+	width:120px;
+}
+.order-amount{
+	display: inline-block;
+	width:120px;
+}
+.order-totalprice{
+	display: inline-block;
+	width:120px;
+}
+#totalprice{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+#order-input{
+	background-color: #FEE0FF;
+	padding: 10px;
+	border-radius: 5px;
+}
+#order-input-title{
+	text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.order-input-caption{
+	width: 19%;
+    text-align: right;
+    margin-right: 5px;
+}
+.order-input-input{
+	width:78%;
+}
+.order-input-input input{
+	width: 100%;
+}
+#order-input-name div{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#order-input-food div{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#order-input-amount div{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#order-input-totalprice div{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#order-submit{
+	margin-top: 5px;
+	text-align: center;
+    margin-bottom: 10px;
+}
+#order-submit #order-submit-text{
+	display: inline-block;
+    width: 200px;
+    height: 40px;
+    background-color: #FDC2FF;
+    line-height: 40px;
+    border-radius: 7px;
+}
+#order-submit #order-submit-text:not(.disabled):hover{
+	background-color: #FB97FF;
+	transition: background-color 0.2s;
+	cursor: pointer;
+}
+.ui.tiny.loader:after, .ui.tiny.loader:before {
+    width: 1.14285714rem;
+    height: 1.14285714rem;
+    margin: 0 0 0 -0.8rem;
+    top: 8px;
+}
+.order-removebutton{
+	height: 0px;
+}
+.order-removebutton i{
+	position: relative;
+	color: red;
+	bottom: -3px;
+    left: -231px;
+}
+.order-removebutton i:hover{
+	cursor: pointer;
+}

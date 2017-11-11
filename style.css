@@ -1,24 +1,37 @@
+#translationtype{
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 2.5em;
+}
+#translationtype span{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#translationtype span input{
+	width:2.5em;
+	height:2.5em;
+}
 #levels{
 	text-align: center;
+	font-size: 2.5em;
+	margin-bottom: 10px;
 }
 #levels span{
 	margin-left: 10px;
 	margin-right: 10px;
 }
+#levels span input{
+	width:2.5em;
+	height:2.5em;
+}
 #sentences{
     margin-top: 10px;
     margin-bottom: 10px;
-}
-@media screen and (min-width: 500px) {
-    #levels{
-		max-width: 500px;
-	}
-	#pages{
-		max-width: 500px;
-	}
+    font-size: 2.5em;
 }
 #pages{
 	text-align: center;
+	font-size: 2.5em;
 }
 #pages span{
 	margin-left: 10px;
@@ -29,4 +42,30 @@
 }
 #pages span.clickable:hover{
 	cursor: pointer;
+}
+@media screen and (min-width: 1000px) {
+	#translationtype{
+		max-width: 500px;
+		font-size: 1em;
+	}
+	#translationtype span input{
+		width:1em;
+		height:1em;
+	}
+    #levels{
+		max-width: 500px;
+		font-size: 1em;
+		margin-bottom: 0px;
+	}
+	#sentences{
+		font-size: 1em;
+	}
+	#levels span input{
+		width:1em;
+		height:1em;
+	}
+	#pages{
+		max-width: 500px;
+		font-size: 1em;
+	}
 }
